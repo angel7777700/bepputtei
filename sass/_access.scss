@@ -1,0 +1,21 @@
+.access {
+    height: 60.0rem;
+    min-width: 1280px;
+    position: relative;
+    .googleMap {
+        position: absolute;
+        right: 0;
+        z-index: 100;
+    }
+    .googleAccess {
+        box-sizing: border-box;
+        position: absolute;
+        top: 20.0rem;
+        left: 0;
+        height: 31.4rem;
+        width: 88.0rem;
+        background-color: #800000;
+        padding: 12rem 52rem 9.7rem 5.4rem;
+        font-size: 1.8rem;
+    }
+}

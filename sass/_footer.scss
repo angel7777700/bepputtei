@@ -1,0 +1,12 @@
+footer {
+    text-align: center;
+    padding: 6.8rem 0;
+    &:before {
+        display: block;
+        content: '';
+        border-top: 1px solid #ffffff;
+        width: 100.0rem;
+        margin: 1.0rem auto;
+        padding-bottom: 7.0rem;
+    }
+}

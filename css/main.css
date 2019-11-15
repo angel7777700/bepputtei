@@ -1,0 +1,246 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.67;
+  min-width: 1280px;
+}
+
+h1, h2, h3, nav, p, small {
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 3.0rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.detail, .menu, .access, footer {
+  background-color: #000000;
+}
+
+.title:after {
+  display: block;
+  content: '';
+  border-top: 1px solid #ffffff;
+  width: 7.0rem;
+  margin: 1.0rem auto;
+  padding-bottom: 7.0rem;
+}
+
+.top-wrapper {
+  min-width: 1070px;
+}
+
+.top-wrapper .bgc-1 {
+  background-color: #000000;
+  z-index: -10;
+  height: 101vh;
+  min-width: 1280px;
+  position: absolute;
+  top: 0;
+}
+
+.top-wrapper .flex-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.top-wrapper .flex-wrap .header {
+  margin: 100px 0 0 130px;
+  padding-top: 20px;
+  padding-right: 50px;
+  display: inline-block;
+  position: relative;
+}
+
+.top-wrapper .flex-wrap .header h3 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.top-wrapper .flex-wrap .header h1 {
+  margin-bottom: 50px;
+  font-size: 3.5rem;
+  letter-spacing: 20px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+
+.top-wrapper .flex-wrap .header nav ul li {
+  margin-bottom: 4.0rem;
+  text-align: center;
+}
+
+.top-wrapper .flex-wrap .top-image img {
+  height: 100vh;
+}
+
+.top-wrapper p {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  padding: 40px;
+  border: 1px solid #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BF0000), to(#3D0202));
+  background: linear-gradient(#BF0000, #3D0202);
+  position: absolute;
+  bottom: 0;
+}
+
+.top-wrapper .bgc-2 {
+  height: 70vh;
+  width: 60vw;
+  background-color: #800000;
+  position: absolute;
+  top: 0;
+  right: 0%;
+  z-index: -1;
+}
+
+.detail {
+  position: relative;
+  height: 94.5rem;
+}
+
+.slide {
+  width: 60%;
+  height: 35.0rem;
+  background-color: #fff;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 6rem black;
+          box-shadow: 0 0 6rem black;
+  margin: 0 auto;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 100;
+  border-radius: 0.2rem;
+}
+
+.slide .slide-item {
+  width: 100%;
+  height: 35.0rem;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: all 1s 0s linear;
+  transition: all 1s 0s linear;
+}
+
+.slide .slide-item.active {
+  opacity: 1;
+}
+
+.slide .slide-item img {
+  width: 100%;
+}
+
+.introduction {
+  width: 90%;
+  background-color: #800000;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 0.3rem;
+}
+
+.introduction .inner {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 2.0rem;
+  margin-top: 15.0rem;
+  margin-bottom: 7.0rem;
+  text-align: center;
+}
+
+.introduction .inner span {
+  font-size: 2.5rem;
+}
+
+.menu {
+  padding-bottom: 15.0rem;
+}
+
+.img-wrap {
+  text-align: center;
+}
+
+.menu p {
+  text-align: center;
+  font-size: 2.0rem;
+  margin-bottom: 5.0rem;
+}
+
+.menu1, .menu2 {
+  margin-right: 20px;
+}
+
+.menu1, .menu4 {
+  height: 420px;
+  margin-bottom: 20px;
+}
+
+.menu2, .menu3 {
+  height: 340px;
+  margin-bottom: 20px;
+}
+
+.access {
+  height: 60.0rem;
+  min-width: 1280px;
+  position: relative;
+}
+
+.access .googleMap {
+  position: absolute;
+  right: 0;
+  z-index: 100;
+}
+
+.access .googleAccess {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  top: 20.0rem;
+  left: 0;
+  height: 31.4rem;
+  width: 88.0rem;
+  background-color: #800000;
+  padding: 12rem 52rem 9.7rem 5.4rem;
+  font-size: 1.8rem;
+}
+
+footer {
+  text-align: center;
+  padding: 6.8rem 0;
+}
+
+footer:before {
+  display: block;
+  content: '';
+  border-top: 1px solid #ffffff;
+  width: 100.0rem;
+  margin: 1.0rem auto;
+  padding-bottom: 7.0rem;
+}
+/*# sourceMappingURL=main.css.map */
